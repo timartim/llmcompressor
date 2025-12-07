@@ -28,9 +28,9 @@ end_learning_rate = 0.001
 # The mode for the program, "compress", "decompress", "both"
 mode = 'both'
 
-path_to_file = "data_from_solution/enwik5"
-path_to_compressed = path_to_file + "_compressed.dat"
-path_to_decompressed = path_to_file + "_decompressed.dat"
+path_to_file = "data/enwik5"
+path_to_compressed = path_to_file + "_compressed_optimized.dat"
+path_to_decompressed = path_to_file + "_decompressed_optimized.dat"
 
 
 def build_model(vocab_size: int) -> tf.keras.Model:
